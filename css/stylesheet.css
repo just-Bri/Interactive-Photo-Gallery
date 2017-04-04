@@ -27,7 +27,7 @@ input[type=text] {
 }
 
 /* Lightbox */
-.lb-container {
+.lb-image {
     max-width: 600px;
     max-height: 375px;
 }

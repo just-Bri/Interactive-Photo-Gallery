@@ -33,7 +33,7 @@ body.lb-disable-scrolling {
   display: block;
   height: auto;
   max-width: inherit;
-  max-height: inherit;   /* Had to adjust from default to inherit, could not get lightbox images smaller any other way(so far) */
+  max-height: none;
   border-radius: 3px;
 
   /* Image border */
