@@ -2,5 +2,4 @@
 An interactive photo gallery using JavaScript and jQuery.
 
 At the top of the page you'll have a search area where photos will hide and show depending on user input. 
-When the user clicks on a thumbnail, the photo will display in a lightbox. 
-There should be a back and previous arrows to cycle through photos.
+When the user clicks on a thumbnail, the photo will display in a lightbox.
