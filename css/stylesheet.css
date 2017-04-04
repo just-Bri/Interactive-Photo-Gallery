@@ -15,7 +15,6 @@ input[type=text] {
 /* Gallery Styling */
 .gallery {
     text-align: center;
-    height: 100%;
     font-size: 0;
     margin: 0 auto;
     max-width: 240px;
@@ -29,7 +28,8 @@ input[type=text] {
 
 /* Lightbox */
 .lb-container {
-    margin: 0 auto;
+    max-width: 600px;
+    max-height: 375px;
 }
 
 .lb-details {
@@ -38,7 +38,7 @@ input[type=text] {
 
 /* Media Queries */
 @media only screen and (min-width: 550px) {
-    .gallery {
+    .gallery{
         max-width: 480px;
     }
 }

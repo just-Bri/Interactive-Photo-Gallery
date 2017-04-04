@@ -24,10 +24,11 @@ I had to repeat a lot of the same code in my index.html
 // ];
 
 /* Search functionality */
-var searchInput = $('.gallery-image a:[data-title==' + $(this).val() + ']');
+// var searchInput = $('.gallery-image a:[data-title==' + $(this).val() + ']');
 
 /* Lightbox */
 lightbox.option({
     'showImageNumberLabel': false,
-    'maxWidth': 600
+    'maxWidth': 600,
+    'maxHeight': 375
 })
