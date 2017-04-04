@@ -84,9 +84,9 @@ body.lb-disable-scrolling {
 .lb-nav {
   position: absolute;
   top: 0;
-  left: 0;
+  left: -20%;
   height: 100%;
-  width: 100%;
+  width: 140%;
   z-index: 10;
 }
 
@@ -210,4 +210,25 @@ body.lb-disable-scrolling {
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
+}
+
+.lb-nav a.lb-next,
+.lb-nav a.lb-prev {
+  opacity:1;
+}
+
+@media only screen and (max-width: 850px) {
+  .lb-nav {
+    position: absolute;
+    top: 0;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    opacity: 0;
+  }
+
+  .lb-nav:hover {
+    opacity: 1;
+  }
 }
