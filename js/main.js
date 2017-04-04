@@ -25,14 +25,13 @@ I had to repeat a lot of the same code in my index.html
 //Get user input
 var userInput = document.getElementById('search');
 document.querySelector('form.form').addEventListener('keyup', function (e) {
-    e.preventDefault(); // prevent the normal submission of the form
     console.log(userInput.value);  // Testing to make sure input is collected correctly
     $('.gallery-image').each(function() { // Loop through all Gallery images/thumbnails
         console.log($(this).attr('data-title')); // Make sure attr is collected correctly
-        if ($(this).attr('data-title').toLowerCase().indexOf(userInput.value.toLowerCase()) == -1) {
-            $(this).hide();
+        if ($(this).attr('data-title').toLowerCase().indexOf(userInput.value.toLowerCase()) == -1) { // Check if current data-value == userInput
+            $(this).hide(); // if it doesn't, hide
         } else {
-            $(this).show();
+            $(this).show(); // if it does, show
         }
     });
 });
